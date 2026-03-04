@@ -7,8 +7,8 @@ export const CartListPage = () => {
   return (
     <Layout>
       <S.PageHeader>
-        <h2>Список корзин</h2>
         <CartFilter />
+        <h2>Список корзин</h2>
       </S.PageHeader>
       
       <CartList />

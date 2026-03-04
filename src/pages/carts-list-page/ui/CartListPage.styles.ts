@@ -6,15 +6,23 @@ export const PageHeader = styled.div`
   flex-direction: column;
   gap: 15px;
   margin-bottom: 20px;
+  width: 100%; 
 
   h2 {
     margin: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #2c3e50;
   }
 
   ${breakpoints.tablet} {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
     margin-bottom: 30px;
+
+    h2 {
+      text-align: left;
+    }
   }
 `;

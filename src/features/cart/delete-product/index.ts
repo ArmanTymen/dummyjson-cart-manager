@@ -1,0 +1,1 @@
+export { RemoveProduct } from './ui/RemoveProduct';

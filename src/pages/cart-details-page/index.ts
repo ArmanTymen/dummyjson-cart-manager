@@ -1,0 +1,1 @@
+export { CartDetailPage as default } from './ui/CartDetailPage';

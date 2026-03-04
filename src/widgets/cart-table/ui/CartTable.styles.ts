@@ -8,7 +8,7 @@ export const TableContainer = styled.div`
 export const ProductTable = styled.table`
   width: 100%;
   border-collapse: collapse;
-
+  border: 1px solid #ddd;
   /* --- MOBILE --- */
   display: block;
   thead { display: none; }
@@ -39,7 +39,6 @@ export const ProductTable = styled.table`
     }
 
     &:last-child {
-      border-bottom: none;
       justify-content: center;
       padding-top: 15px;
     }
@@ -84,7 +83,7 @@ export const ProductTable = styled.table`
 `;
 
 export const TotalInfo = styled.div`
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: right;
   font-weight: bold;
   padding: 15px;

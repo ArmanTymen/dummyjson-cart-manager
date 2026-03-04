@@ -1,9 +1,8 @@
-import RemoveProduct from "@/features/cart/delete-product/ui/RemoveProduct";
-import { UpdateQuantity } from "@/features/cart/update-quantity/ui/UpdateQuantity";
 import type { Cart } from "@/entities/cart/model/types";
 import { formatCurrency } from "@/shared/lib/formatCurrency";
 import * as S from './CartTable.styles'
-
+import { UpdateQuantity } from "@/features/cart/update-quantity";
+import { RemoveProduct } from "@/features/cart/delete-product";
 interface CartTableProps {
   cart: Cart;
 }

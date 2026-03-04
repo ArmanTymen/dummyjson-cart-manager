@@ -1,7 +1,7 @@
 import { useCarts } from "@/entities/cart/api/useCarts";
 import { formatCurrency } from "@/shared/lib/formatCurrency";
 import * as S from "./CartList.styles";
-import Pagination from "@/features/pagination/ui/Pagination";
+import { Pagination } from "@/features/pagination";
 
 export const CartList = () => {
   const { data, isLoading, isError } = useCarts();
